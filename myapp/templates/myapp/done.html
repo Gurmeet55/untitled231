@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h1>WELCOME {{ name }}</h1>
+    <h2>your form is submitted as email  {{ email }}</h2>
+
+</head>
+<body>
+<div>
+    <img src= "{% static  'Images\multi_outlet.png ' %}" alt="loss image" style="width:50%;" >
+</div>
+
+</div>
+    <div class='bgimg' id='content' style='color:blue'>
+    {%block content%} {% endblock %}
+    </div>
+
+
+</body>
+</html>
